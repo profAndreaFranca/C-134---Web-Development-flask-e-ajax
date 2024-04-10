@@ -1,6 +1,7 @@
 from flask import Flask, render_template, url_for, request, jsonify
 from text_sentiment_prediction import *
 
+# pip install flask
 
 app = Flask(__name__)
 
